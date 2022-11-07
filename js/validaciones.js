@@ -37,6 +37,22 @@ const mensajesDeError = {       // Mensajes de error.
     nacimiento: {
         valueMissing: "Este campo 'Fecha de nacimiento' no puede estar vacio",
         customError: "¡Debes ser mayor de edad!"
+    },
+    numero: {
+        valueMissing: "Este campo 'número telefónico' no puede estar vacio",
+        patternMismatch: "El formato requerido es xxxxxxxxxx, 10 digitos"
+    },
+    direccion: {
+        valueMissing: "Este campo 'dirección' no puede estar vacio",
+        patternMismatch: "La direccion debe contener entre 10 a 40 caracteres"
+    },
+    ciudad: {
+        valueMissing: "Este campo 'Cuidad' no puede estar vacio",
+        patternMismatch: "La direccion debe contener entre 10 a 40 caracteres"
+    },
+    estado: {
+        valueMissing: "Este campo 'Estado' no puede estar vacio",
+        patternMismatch: "La direccion debe contener entre 10 a 40 caracteres"
     }
 }
 
